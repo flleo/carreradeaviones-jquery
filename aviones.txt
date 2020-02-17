@@ -1,0 +1,15 @@
+avion		:	avion 	= {[mov]}
+movimiento	:	{[clave:valor]}	:	mov 	= {[vel,ava]}
+random  	:	ran 	= {1-100}	
+ava_av		:	ava_av 	= {0,4,5}
+ava_ai		:	ava_ai 	= {-3,8,12}
+ava_f		:	ava_f	= {-20,10,16}
+
+vel -> function (){
+    switch(avion){
+        case avioneta : 
+        {
+            if(ran )
+        }
+    }
+}

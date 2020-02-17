@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="aviones.css" rel="stylesheet" type="text/css">
+
+    <title>Carrera de Aviones</title>
+
+</head>
+
+<body>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">PODIUM</th>
+                <th scope="col">Corredor</th>
+                <th scope="col">Recorrido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="1"></td>
+                <th scope="row">1</th>
+                <td id="avi-1">?</td>
+                <td id="r-1">0</td>
+            </tr>
+            <tr>
+                <td colspan="1"></td>
+                <th scope="row">2</th>
+                <td id="avi-2">?</td>
+                <td id="r-2">0</td>
+            </tr>
+            <tr>
+                <td colspan="1"></td>
+                <th scope="row">3</th>
+                <td id="avi-3">?</td>
+                <td id="r-3">0</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <label id="turno-ant"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="turno"></label>
+            </td>
+        </tr>
+        <tr class="avi">
+            <td>
+                <img id="avioneta" src="./imagenes/Avioneta.jpg" />
+            </td>
+        </tr>
+        <tr class="air">
+            <td>
+                <img id="airbus" src="./imagenes/Airbus.jpg" />
+            </td>
+        </tr>
+        <tr class="f18">
+            <td>
+                <img id="f18" src="./imagenes/F18.jpg" />
+            </td>
+        </tr>
+    </table>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button class="paso" onclick="paso()" type="button" class="btn btn-secondary">Paso a paso</button>
+        <button class="play" onclick="startRace()" type="button" class="btn btn-secondary">Carrera</button>
+    </div>
+
+
+    <script src="aviones-jquery.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
